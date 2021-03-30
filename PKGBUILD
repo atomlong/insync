@@ -22,7 +22,7 @@ depends=('adobe-source-code-pro-fonts'
          'nss'
          'xdg-utils')
 optdepends=()
-arch=('x86_64')
+arch=('x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64')
 source=("http://s.insynchq.com/builds/${pkgname}_${pkgver}-${_dist}_amd64.deb"
     'insync@.service'
     'insync.service')
